@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Detail</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/header-wislist.css">
+    <link rel="stylesheet" href="css/main-cart.css">
+    <link rel="stylesheet" href="css/pruduct-detail.css">
+    <!-- <link rel="stylesheet" href="css/home1.css">  -->
+    <!-- <link rel="stylesheet" href="css/content-main.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,700&display=swap&subset=vietnamese" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css"> -->
+
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://fortawesome.github.io/Font-Awesome/assets/font-awesome/css/font-awesome.css"> 
+    <link rel="stylesheet" href="css/all.min.css"> 
+  
+</head>
+<body>
+  <header>
+    <section class="top-bar">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-auto col-logo">
+            <div class="top-bar__logo">
+              <h1>Eliah</h1>
+              
+            </div>
+          </div>
+
+          <!-- <div class="col col-iconbar">
+            <div class="button-bar">
+              <i class="fas fa-bars"></i>
+            </div>
+          </div>    -->
+          <div class="col-auto col-menu d-flex">
+            <!-- <i class="fas fa-bars"></i> -->
+            <input type="checkbox" id="click">
+            <label for="click" class="menu-btn">
+              <img class="icon-bars" src="css/icon/white-icon-menu-26.png" alt="">
+            </label>              
+              <ul class="top-bar__nav-list">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a class="nav-list__menu-shop" href="#">Shop</a></li>
+                <li>
+                  <a class="nav-list__menu-blog" href="#">Blog</a>
+                </li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+          </div>
+          <div class="col-auto col-cart">
+              <ul class="top-bar__nav-icon">
+                <li class="icon-searchh"><img style="padding-top: 5px;" src="css/icon/iconsearch.png"></img></li>
+                <li class="icon-wishlist"><a href="#"><img style="padding-top: 5px;" src="css/icon/IconWishlist.png"></img></a></li>
+                <li class="icon-cart"><a href="#">
+                  <div class="top-bar__cart">
+                    <img class="iconcart" src="css/icon/IconCart.png"></img>
+                    <div class="top-bar__cart-quantity">
+                      0
+                    </div>
+                  </div>
+                </a></li>
+                <li class="money"><a href="#">Cart: $0.00</a></li>
+              </ul>
+          </div>
+                  
+
+        </div>
+      </div>
+    </section>
+
+    <section class="top-hero">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="top-hero__content">
+              <h1>
+                Product Detail
+              </h1>
+              <div class="blog-choice">
+                <span>Home</span>
+                <span>/</span>
+                <span>Shop</span>
+                <span>/</span>
+                <span>Velvet melon high istensity</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section style="margin-top: 100px;" class="detail-product">
+      <div style="" class="container">
+        <div style=" border-bottom: 1px solid #e2e2e2; padding-bottom: 100px;" class="row">
+          <div class="col-auto">
+            <div class="detail-img">
+
+            </div>
+          </div>
+          <div class="col-auto">
+            <div class="detail-info">
+              <div class="summary-info">
+                <div>Cheek&Coutour</div>
+                <div>Velvet Melon High Intensity</div>
+                <div class="star-view">
+                  <img src="css/icon/home1-empty-star.png" alt="">
+                  <span>/</span>
+                  <span>03 reviews</span>
+                  <span>/</span>
+                  <span>Write a review</span>
+                </div>
+                <div class="product-price-info">
+                  $34.00
+                </div>
+              </div>
+              <div class="more-info">
+                <div>
+                  <span>Brand:</span>
+                  <span>Kosas</span>
+                </div>
+                <div>
+                  <span>Product code:</span>
+                  <span>PM 001</span>
+                </div>
+                <div>
+                  <span>Reward points:</span>
+                  <span>30</span>
+                </div>
+                <div>
+                  <span>Availability:</span>
+                  <span>In stock</span>
+                </div>
+                <div style="display: flex; margin-top: 15px;">
+                  <span style="color: #111111; font-weight: 500;">Color:</span>
+                  <div class="product-color">
+                    <div class="list-color">
+                      <div class="cover-color">
+                      </div>
+                      <div class="main-color">
+                      </div>
+                    </div>
+                    <div class="list-color1">
+                      <div class="cover-color">
+                      </div>
+                      <div class="main-color">
+                      </div>
+                    </div>
+                    <div class="list-color2">
+                      <div class="cover-color">
+                      </div>
+                      <div class="main-color">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div style="display: flex;" class="add-to-cart">
+                  <div class="add-remove">
+                    <span>-</span>
+                    <span>01</span>
+                    <span>+</span>
+                  </div>
+                  <div class="button-add-product">
+                    <div class="icon-cart-info">
+                      <img src="css/icon/home1-cart.png" alt="">
+                    </div>
+                    <div style="font-size: 13px;">ADD TO CART</div>
+                  </div>
+                  <div class="icon-preview">
+                    <img src="css/icon/home1-eye.png" alt="">
+                  </div>
+                  <div class="icon-preview">
+                    <img src="css/icon/home1-heart.png" alt="">
+                  </div>
+                </div>
+                
+              </div>
+
+              <div style="padding-top: 40px;" class="description-info">
+                <div>
+                  <span>Description</span>
+                  <span>/</span>
+                  <span>Shipping & Returns</span>
+                  <span>/</span>
+                  <span>Reviews ( 03 )</span>
+                </div>
+                <div class="content-description">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do ei-usmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra mae-cenas accumsan lacus vel facilisis. </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="related-product">
+      <div class="related-title">
+        Related Products
+      </div>
+      <div class="container">
+        <div style="padding-top: 50px;" class="row">
+          <div class="col-md-3 col-sm-4">
+            <div class="eliah-product">
+              <div class="product-states">
+                <div class="product-states1">
+                  -30%
+                </div>
+                <div class="below-states">
+                </div>
+              </div>
+
+              <div class="product-hover">
+                <div class="product-choice">
+                  <img src="css/icon/home1-cart.png" alt="">
+                  <div class="choice-hover">
+                    Add to Cart
+                  </div>
+                  <div class="ribbon-hover-choice">
+                    
+                  </div>
+                </div>
+                <div class="product-choice">
+                  <img src="css/icon/home1-eye.png" alt="">
+                </div>
+                <div class="product-choice">
+                  <img src="css/icon/home1-heart.png" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="eliah-product-info">
+              <div class="type-star">
+                <span>Eyes</span>
+                <div class="product-star">
+                  <img src="css/icon/home1-empty-star.png" alt="">
+                </div>
+              </div>
+              <div class="product-name">
+                The expert mascaraa
+              </div>
+              <div class="product-price">
+                <div style="display: flex;">
+                  <span>$21.00</span>
+                  <span>$29.00</span>
+                </div>
+                <div class="product-color">
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-4">
+            <div class="eliah-product">
+              <div class="product-hover">
+                <div class="product-choice">
+                  <img src="css/icon/home1-cart.png" alt="">
+                  <div class="choice-hover">
+                    Add to Cart
+                  </div>
+                  <div class="ribbon-hover-choice">
+                    
+                  </div>
+                </div>
+                <div class="product-choice">
+                  <img src="css/icon/home1-eye.png" alt="">
+                </div>
+                <div class="product-choice">
+                  <img src="css/icon/home1-heart.png" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="eliah-product-info">
+              <div class="type-star">
+                <span>Palettes</span>
+                <div class="product-star">
+                  <img src="css/icon/home1-star.png" alt="">
+                </div>
+              </div>
+              <div class="product-name">
+                Leather shopper bag
+              </div>     
+              <div class="product-price">
+                <span>$45.00</span>
+                <span></span>
+                <div class="product-color">
+
+                </div>
+              </div>         
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-4">
+            <div class="eliah-product">
+              <div class="product-hover">
+                <div class="product-choice">
+                  <img src="css/icon/home1-cart.png" alt="">
+                  <div class="choice-hover">
+                    Add to Cart
+                  </div>
+                  <div class="ribbon-hover-choice">
+
+                  </div>
+                </div>
+                <div class="product-choice">
+                  <img src="css/icon/home1-eye.png" alt="">
+                </div>
+                <div class="product-choice">
+                  <img src="css/icon/home1-heart.png" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="eliah-product-info">
+              <div class="type-star">
+                <span>Cheek&Coutour</span>
+                <div class="product-star">
+                  <img src="css/icon/home1-empty-star.png" alt="">
+                </div>
+              </div>
+              <div class="product-name">
+                Velvet Melon High Intensity
+              </div>
+              <div class="product-price">
+                <div style="display: flex;">
+                  <span>$34.00</span>
+                  <span></span>
+                </div>
+                <div class="product-color">
+                  <div class="list-color">
+                    <div class="cover-color">
+                    </div>
+                    <div class="main-color">
+                    </div>
+                  </div>
+                  <div class="list-color1">
+                    <div class="cover-color">
+                    </div>
+                    <div class="main-color">
+                    </div>
+                  </div>
+                  <div class="list-color2">
+                    <div class="cover-color">
+                    </div>
+                    <div class="main-color">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-4">
+            <div class="eliah-product">
+              <div class="product-states2">
+                <div class="product-states3">
+                  NEW
+                </div>
+                <div class="below-states">
+
+                </div>
+              </div>
+
+              <div class="product-hover">
+                <div class="product-choice">
+                  <img src="css/icon/home1-cart.png" alt="">
+                  <div class="choice-hover">
+                    Add to Cart
+                  </div>
+                  <div class="ribbon-hover-choice">
+                    
+                  </div>
+                </div>
+                <div class="product-choice">
+                  <img src="css/icon/home1-eye.png" alt="">
+                </div>
+                <div class="product-choice">
+                  <img src="css/icon/home1-heart.png" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="eliah-product-info">
+              <div class="type-star">
+                <span>Lips</span>
+                <div class="product-star">
+                  <img src="css/icon/home1-empty-star.png" alt="">
+                </div>
+              </div>
+              <div class="product-name">
+                Luxe jewel lipstick
+              </div>
+              <div class="product-price">
+                <span>$49.00</span>
+                <span></span>
+                <div class="product-color">
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bottom-hero">
+      
+    </section>
+  </main>
+
+  <footer>
+    <section class="top-footer">        
+    </section>
+    <section class="second-footer">
+      <div class="container">
+        <div class="need-border">
+          <div class="row">
+            <div class="col-md-2 col-sm-12 col-xs-12 d-flex align-items-center nopadd"  >
+              <div class="footer-logo top-bar__logo">
+                <h1>Eliah</h1>
+              </div>
+            </div>
+            <div class="col-md-7 col-sm-12 col-xs-12 d-flex align-items-center justify-content-center ">
+              <div class="footer__email">
+                <div class="footer-email-text">
+                  Subscribe Newletter
+                </div>
+                <div class="footer__input-email">
+                  <input style="border: none; font-size: 13px;" type="email" id="email1" placeholder="Your email">    
+                  <div class="air-plane">
+                    <img src="css/icon/paper_airplane_icon.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-12 col-xs-12 logof">
+              <div class="footer__follow-logo">
+                <div class="flogo-follow"><img src="css/icon/facebook-footer.png" alt=""></div>
+                <div class="flogo-follow "><img src="css/icon/twitter-footer.png" alt=""></div>
+                <div class="flogo-follow"><img src="css/icon/youtube-footer.png" alt=""></div>
+                <div class="flogo-follow"><img src="css/icon/istagram_footer.png" alt=""></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="third-footer">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-md-4 col-sm-12 col-xs-12 nopadd" >
+            <div class="third-footer-col third-footer-col11">
+              <div class="third-footer-col-title">
+                Contect info
+              </div>
+              <div class="third-footer-content">
+                <div class="third-footer-col-row">
+                  <span class="third-footer1">Address: </span>
+                  <span class="third-footer-info">2168 S Archer Ave, Chicago, IL 60616, US</span>
+                </div>
+                <div class="third-footer-col-row">
+                  <span class="third-footer1">Phone: </span>
+                  <span class="third-footer-info">+1 312-808-1999</span>
+                </div>
+                <div class="third-footer-col-row">
+                  <span class="third-footer1">Email: </span>
+                  <span class="third-footer-info">Beatycosmetics@gmail.com</span>
+                </div>
+                <div class="third-footer-col-row">
+                  <span class="third-footer1">Opentime: </span>
+                  <span class="third-footer-info">8.00am - 11.00.pm</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-12 col-xs-12">
+            <div class="row">
+              <div class="col-6" style="padding-left: 0px;">
+                <div class="third-footer-col">
+                  <div class="third-footer-col-title">
+                    Account
+                  </div>
+                  <div class="third-footer-content">
+                    <ul>
+                      <li>
+                        <div class="third-footer2">My account</div>
+                      </li>
+                      <li>
+                        <div class="third-footer2">Wishlist</div>
+                      </li>
+                      <li>
+                        <div class="third-footer2">Cart</div>
+                      </li>
+                      <li>
+                        <div class="third-footer2">Shop</div>
+                      </li>
+                      <li>
+                        <div class="third-footer2">Checkout</div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6" style="padding-left: 0px;">
+                <div class="third-footer-col">
+                  <div class="third-footer-col-title">
+                    Information
+                  </div>
+                  <div class="third-footer-content">
+                    <ul>
+                      <li>
+                        <div class="third-footer2">About us</div>
+                      </li>
+                      <li>
+                        <div class="third-footer2">Careers</div>
+                      </li>
+                      <li>
+                        <div class="third-footer2">Delivery Information</div>
+                      </li>
+                      <li>
+                        <div class="third-footer2">Privacy Policy</div>
+                      </li>
+                      <li>
+                        <div class="third-footer2">Terms & Condition</div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-12 col-xs-12">
+            <div class="third-footer-col third-footer-col33">
+              <div class="third-footer-col-title">
+                Payment methods
+              </div>
+              <div class="third-footer-content">
+                <div class="payment-info">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit gravida facilisis. 
+                </div>
+                <div class="payment-choice">
+                  <img src="css/icon/paypal_icon.png" alt="">
+                  <img src="css/icon/visa_icon.png" alt="">
+                  <img src="css/icon/mastercard_icon.png" alt="">
+                  <img src="css/icon/cirrus_icon.png" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="last-footer">
+      <div class="container">
+        <div class="row justify-content-between align-content-center flex-wrap">
+          <div class="col-auto nopadd d-flex align-items-center f1">
+            <span>© Copyright 2020 Beauty</span>
+          </div>
+          <div class="col-auto d-flex align-items-center f1">
+            <div class="more">
+              <span>Privacy Policy</span>
+              <span>|</span>
+              <span>Terms & Conditions</span>
+              <span>|</span>
+              <span>Site Map</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </footer>
+
+</body>
+</html>
+
+
+  

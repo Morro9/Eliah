@@ -1,0 +1,43 @@
+div.stars {
+  display: inline-block;
+}
+ .product-star{
+   display: flex;
+   justify-content: center;
+   padding-top: 200px;
+ }
+ input.star { display: none; }
+ 
+ label.star {
+  float: right;
+  font-size: 33px;
+  color: #ecba0b;
+  transition: all .2s;
+}
+ 
+ input.star:checked ~ label.star:before {
+  content: '\f005';
+  color:  #ecba0b;
+  transition: all .25s;
+}
+
+ input.star:hover ~ .label.star:before {
+  content: '\f005';
+  color:  #ecba0b;
+  transition: all .25s;
+}
+ 
+ input.star-5:checked ~  label.star:before {
+  color:  #ecba0b;
+}
+ 
+
+ label.star:hover { 
+  transform: rotate(-1deg) scale(1.3); 
+  cursor: pointer;
+}
+ 
+label.star:before {
+  content: '\f006';
+  font-family: FontAwesome;
+}

@@ -1,0 +1,135 @@
+.first-main{
+  /* height: 1100px; */
+  margin-top: 100px;
+}
+
+/* .second-main{
+  height: 320px;
+  width: 100%;
+  background-color: #e1e1e1;
+} */
+
+.contact-info-title{
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.contact-info-list
+{
+  display: flex;
+  margin-top: 25px;
+}
+
+.contact-info-list2{
+  margin-top: 40px !important;
+}
+
+.contact-info-icon{
+  width: 31px;
+  display: flex;
+  justify-content: center;
+  height: fit-content;
+  padding-top: 5px;
+}
+
+.contact-info-content{
+  margin-left: 40px;
+}
+
+.contact-info-name{
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.contact-info-content{
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 32px;
+  color: 444444;
+
+}
+
+.contact-info-detail1 span:not(:first-child){
+  margin-left: 17px;
+}
+
+.get-touch{
+  width: 670px
+}
+
+.get-touch textarea{
+  resize: none;
+  padding-left: 20px;
+  padding-top: 10px;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 30px;
+  margin-top: 15px;
+}
+
+.get-touch textarea:first-child{
+  margin-top: 45px;
+}
+
+.get-touch-messege{
+  /* display: block; */
+  width: 670px
+}
+
+
+.name-email{
+  width: 670px;
+  height: 50px;
+
+}
+
+
+#message{
+  width: 670px;
+  height: 120px;
+}
+
+.get-touch-button{
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+
+textarea:active, textarea:focus{
+  outline: 0px;
+}
+
+.second-main{
+
+}
+.maps{
+  width: 100%;
+  height: 470px;
+  background-color:  #e1e1e1;
+  margin-top: 100px;
+}.maps img{
+  margin-top: 135px;
+  margin-left: 530px;
+}
+
+.third-main{
+  display: flex;
+  margin-top: 100px;
+}
+
+.third-main-img{
+  width: 320px;
+  height: 320px;
+  background-color: #e1e1e1;
+}
+
+.third-main-img1{
+  background-color: #dadada;
+}

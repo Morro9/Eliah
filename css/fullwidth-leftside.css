@@ -1,0 +1,11 @@
+.left-side-bar{
+  width: 225px;
+  background-color: blueviolet;
+  height: 100vh;
+}
+
+.product-fullwidth-left{
+  width: 315px;
+  height: 380px;
+  background-color: aqua;
+}

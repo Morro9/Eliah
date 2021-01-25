@@ -1,0 +1,293 @@
+.icon-wishlist img {
+  /* margin-top: 7px; */
+  width: 25px;
+  height: 28px;
+}
+.icon-searchh img{
+  /* margin-top: 7px; */
+  width: 23px;
+  height: 28px;
+}
+
+.col-logo{
+  /* width: 250px; */
+  /* width: 21.36752%; */
+  width: fit-content;
+}
+
+.col-menu{
+  /* width: 690px; */
+  /* width: 58.974358974%; */
+  width: fit-content;
+}
+
+.col-cart{
+  /* width: 19.658121026%; */
+  width: fit-content;
+}
+
+.top-bar__logo{
+  width: 100%;
+}
+
+.top-bar__logo > h1{
+  width: 100%;
+  padding-top: 6px;
+}
+
+.top-bar__logo h1:before{
+  position: absolute;
+  color: var(--orange-red);
+  display: block;
+  opacity: 1;
+  content: ".";
+  bottom: 31.51px;
+  left: 32px;
+}
+
+.top-bar__nav-list{
+  width: 100%;
+}
+
+/* .top-bar__nav-icon{
+  width: 100%;
+} */
+
+.top-bar__nav-icon{
+  /* margin-right: 0px; */
+  width: 100%;
+  /* margin: 0px; */
+}
+
+.col-auto{
+  margin: 0;
+  padding: 0;  
+  align-items: center;
+  height: 100%;
+}
+
+.col-auto > ul{
+  margin: 0px;
+  font-family: var(--Spartan);
+  font-size: 15px;
+  font-weight: 400;
+  
+}
+
+.icon-bars{
+
+  width: 20px;
+  height: 20px;
+  color: aliceblue;
+  cursor: pointer;
+
+}
+
+.icon-bars:hover{
+  cursor: pointer;
+}
+
+#click{
+  display: none;
+}
+
+.menu-btn{
+  display: none;
+}
+
+@media (max-width: 1023px){
+  .col-iconbar{
+    display: block;
+  }
+
+  .col-menu{
+    display: block;
+  }
+  
+  .menu-btn{
+    display: block;
+  }
+
+  #click:checked ~ .menu-btn img:before{
+    content: "\f00d";
+  }
+
+  .top-bar__nav-list{
+    display: none;
+  }
+  .col-logo{
+    width: 60px;
+    margin-left: 30px;
+  }
+
+  .col-cart{
+    margin-right: 30px;
+  }
+
+  .top-bar__nav-list{
+    /* display: block; */
+    position: fixed;
+    top: 60px;
+    left: -100%;
+    background: rgb(106, 120, 133);
+    height: 450px;
+    width: 100%;
+    /* margin-left: 100%; */
+    text-align: center;
+    display: block;
+    transition: all 0.3s ease;
+    /* opacity: 100%; */
+  }
+  .top-hero{
+    z-index: -1;
+  }
+
+  .col-menu ul li{
+    width: 100%;
+    margin: 40px 0;
+  }
+  .col-menu ul li a{
+    width: 100%;
+    margin-left: -110%;
+    display: block;
+    font-size: 20px;
+    transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  #click:checked ~  ul li a{
+    margin-left: 0px;
+  }
+
+  #click:checked ~ .top-bar__nav-list{
+    left: 0;
+  }
+
+  #click:checked .top-bar__nav-list{
+    z-index: 3;
+  }
+  .nav-list__menu-shop:after{
+    content: none !important;
+  }
+
+  .top-bar{
+    /* position: relative; */
+  }
+
+  .top-bar__nav-list{
+    /* position: absolute; */
+  }
+  .top-hero{
+    position: relative;
+    /* opacity: 0%; */
+    /* padding-top: 450x; */
+    /* display: none; */
+  }
+
+  .list-product{
+    position: relative;
+    z-index: -2;
+  }
+
+}
+
+
+.nav-list__menu-shop{
+  position: relative;
+}
+
+.nav-list__menu-shop::after{
+  width: 52px;
+  height: 8px;
+  background-color: var(--orange-red);
+  position: absolute;
+  content: " ";
+  top: 8px;
+  opacity: 0.5;
+  right: -7.0px;
+}
+
+.nav-list__menu-blog::after{
+  width: 0px;
+  height: 0px;
+  position: absolute;
+}
+
+
+
+
+/* main */
+
+
+.list-product{
+  height: 780px !important;
+  width: 100%;
+}
+
+
+*{
+  font-family: var(--Spartan);
+}
+
+
+.product-add{
+  width: 170px;
+  height: 45px;
+  background-color: black;
+  color: white;
+  font-size: 13px;
+  line-height: 28px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-add:hover{
+  cursor: pointer;
+}
+
+.product-quantity{
+  color: #444444;
+  font-size: 15px;
+  font-weight: 400 !important;
+}
+
+.product-type{
+  font-size: 13px !important;
+}
+.product-name{
+  font-size: 16px !important;
+}
+
+.product-price{
+  font-size: 15px !important;
+}
+
+
+.last-product{
+  border-bottom: none !important;
+}
+
+.product{
+  height: 172px !important;
+  
+}
+
+.need-border1{
+  margin-top: 50px !important;
+}
+
+.title{
+  padding-top: 20px !important;
+}
+
+
+.product1{
+  padding-top: 5px !important;
+}
+
+
+.footer-logo h1::before{
+  left: 42.3px !important;
+  bottom: 40.5px;
+}

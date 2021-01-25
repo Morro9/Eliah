@@ -1,0 +1,43 @@
+
+
+:root {
+  --orange-red: #f26460;
+  --grey-background: #e1e1e1;
+  --near-black: #111111;
+  --grey-text: #888888;
+  --near-red: #552a29;
+  --Spartan: 'Spartan', sans-serif;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+*{
+  box-sizing: border-box;
+  list-style: none;
+}
+
+.container{
+  padding: 0;
+  height: 100%;
+}
+
+.col-8{
+  padding: 0 10px;
+}
+
+/* 
+.Graphic2 {
+  background-color: rgb(242, 100, 96);
+  opacity: 0.2;
+  position: absolute;
+  left: 295px;
+  top: 1044px;
+  width: 300px;
+  height: 300px;
+  z-index: 275;
+} */

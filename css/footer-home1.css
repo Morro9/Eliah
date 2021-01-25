@@ -1,0 +1,7 @@
+.need-border row{
+  border-bottom: 1px solid gray !important;
+}
+
+.need-border{
+  width: fit-content;
+}

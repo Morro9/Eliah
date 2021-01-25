@@ -1,0 +1,152 @@
+
+:root {
+  --orange-red: #f26460;
+  --grey-background: #e1e1e1;
+  --near-black: #111111;
+  --grey-text: #888888;
+  --near-red: #552a29;
+  --Spartan: 'Spartan', sans-serif;
+}
+
+.sectitle{
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  font-size: 15px;
+  /* line-height: 30px; */
+  font-weight: 600;
+  height: 130px;
+  margin-top: 30px;
+  
+}
+
+.title{
+  display: flex;
+  align-items: center;
+  align-self: center;
+  margin-top: 50px;
+}
+
+.container{
+  padding: 0px;
+}
+
+.need-border-title{
+  border-bottom: 1px solid var(--grey-background);
+}
+
+.need-border1{
+  margin-top: 50px;
+  /* display: flex;
+  align-items: center; */
+
+  border-bottom: 1px solid var(--grey-background);
+  width: 100%;
+}
+.title .list-title:first-child, .product-detail{
+  width: 48.718%;
+}
+.title-price, .title-quantity, .list-title:last-child, .product-price, .product-quantity{
+  width: 17.0941%;
+}
+
+.product-total{
+  width: 14%;
+}
+.product-del{
+  width: 3.0941%;
+}
+.col-12{
+  padding: 0px
+}
+
+
+.bot-image{
+  width: 100%;
+  height: 320px;
+  background-color: var(--grey-background);
+  margin-top: 100px;
+}
+
+
+.product{
+  height: 170px;
+  border-bottom: 1px solid var(--grey-background);
+  display: flex;
+  align-items: center;
+}
+
+.product:last-child{
+  /* border: none; */
+}
+
+.product-img{
+  width:  100px;
+  height: 100px;
+  background-color: var(--grey-background);
+}
+
+.product-quantity span{
+  margin-left: 30px;
+  display: flex;
+  align-items: center;
+
+}
+
+
+.product-quantity span:first-child{
+  margin-left: 0px;
+  color: #888888;
+}
+
+.product-quantity span:last-child{
+  color: #888888;
+}
+
+.product-quantity span:last-child, .product-quantity span:first-child {
+  font-size: 19px;
+}
+
+
+.product-price, .product-quantity, .product-total{
+  font-family: var(--Spartan);
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.product-detail-name{
+  /* display: table-cell; */
+  margin-left: 30px;
+  /* display: flex;
+  align-items: center;
+  flex-wrap: wrap; */
+  height: 100%;
+  /* vertical-align: middle; */
+  /* line-height: 10px; */
+}
+
+.product-detail{
+  display: flex;
+  align-items: center;
+}
+.product-type{
+  font-size: 13px;
+  font-weight: 500;
+  font-family: var(--Spartan);
+  color: var(--grey-text);
+  width: 100%;
+  line-height: 24px;
+  /* padding-top: 25px; */
+  /* margin-top: 25px; */
+  
+}
+
+.product-name{
+  font-size: 16px;
+  font-weight: 500;
+  font-family: var(--Spartan);
+  color: black;
+  line-height: 24px;
+}
+
+

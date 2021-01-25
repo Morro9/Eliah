@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eliah</title>
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/content-main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,700&display=swap&subset=vietnamese" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <header>
+      <section class="top-bar">
+        <div class="container">
+          <div class="row justify-content-between">
+            <div class="col col-logo">
+              <div class="top-bar__logo">
+                <h1>Eliah</h1>
+              </div>
+            </div>
+
+            <!-- <div class="col col-iconbar">
+              <div class="button-bar">
+                <i class="fas fa-bars"></i>
+              </div>
+            </div>    -->
+
+            <div class="col col-menu">
+                <ul class="top-bar__nav-list">
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Services</a></li>
+                  <li><a href="#">Shop</a></li>
+                  <li>
+                    <a class="nav-list__menu-blog" href="#">Blog</a>
+                  </li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="col col-cart">
+                <ul class="top-bar__nav-icon">
+                  <li class="icon-searchh"><img src="css/icon/iconsearch.png"></img></li>
+                  <li class="icon-wishlist"><a href="#"><img src="css/icon/IconWishlist.png"></img></a></li>
+                  <li class="icon-cart"><a href="#">
+                    <div class="top-bar__cart">
+                      <img class="iconcart" src="css/icon/IconCart.png"></img>
+                      <div class="top-bar__cart-quantity">
+                        0
+                      </div>
+                    </div>
+                  </a></li>
+                  <li class="money"><a href="#">Cart: $0.00</a></li>
+                </ul>
+            </div>
+                    
+
+          </div>
+        </div>
+      </section>
+
+      <section class="top-hero">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div class="top-hero__content">
+                <h1>
+                  Blog
+                </h1>
+                <div class="blog-choice">
+                  <span>Home</span>
+                  <span>/</span>
+                  <span>Blog</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <section class="content">
+        <div class="container">
+          <div class="row row-main">
+            <div class="col-md-4 col-sm-12">
+              <div class="main-sidebar">
+                <!-- search input -->
+                <div class="row">
+                  <div class="col">
+                    <div class="sidebar__input-search">
+                      <input style="border: none;" type="search" id="search" placeholder="Enter keyword">
+                      <img class="sidebar__input-icon" src="css/icon/sidebar_searchicon.png" alt="">
+                    </div>
+                  </div>
+                </div>
+                <!-- follow -->
+                <div class="row">
+                  <div class="col">
+                    <div class="sidebar__follow">
+                      <div class="sidebar__follow-text">
+                        <h4>
+                          Follow me
+                        </h4>
+                      </div>
+                      <div class="sidebar__follow-logo">
+                        <div class="logo-follow"><img src="css/icon/facebook_icon.png" alt=""></div>
+                        <div class="logo-follow logo-tweeter"><img src="css/icon/tweeter_icon.png" alt=""></div>
+                        <div class="logo-follow"><img src="css/icon/youtube_icon.png" alt=""></div>
+                        <div class="logo-follow"><img src="css/icon/istagram_icon.png" alt=""></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- categories -->
+                <div class="row">
+                  <div class="col">
+                    <div class="sidebar__categories">
+                      <h4 class="sidebar__categories-title">
+                        Categories
+                      </h4>
+                      <div class="sidebar__categories-content">
+                        <div class="row content-categories">
+                          <div class="col-auto">
+                            <div>Beauty tips</div>
+                          </div>
+                          <div class="col-auto">
+                            <div>36</div>
+                          </div>
+                        </div>
+                        <div style="color: #f26460;" class="row content-categories">
+                          <div class="col-auto">
+                            <div>Make up</div>
+                          </div>
+                          <div class="col-auto">
+                            <div>18</div>
+                          </div>
+                        </div>
+                        <div class="row content-categories">
+                          <div class="col-auto">
+                            <div>Skin care</div>
+                          </div>
+                          <div class="col-auto">
+                            <div>09</div>
+                          </div>
+                        </div>
+                        <div class="row content-categories">
+                          <div class="col-auto">
+                            <div>Body care</div>
+                          </div>
+                          <div class="col-auto">
+                            <div>12</div>
+                          </div>
+                        </div>
+                        <div class="row content-categories">
+                          <div class="col-auto">
+                            <div>Videos</div>
+                          </div>
+                          <div class="col-auto">
+                            <div>27</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- popular post -->
+                <div class="row">
+                  <div class="col">
+                    <div class="sidebar_popular">
+                      <h4 class="sidebar__categories-title">
+                        Popular posts
+                      </h4>
+
+                      <div class="list-post">
+                        <div class="row list-post__post">
+                          <div class="col-auto">
+                            <div class="image-post"></div>
+                          </div>
+                          <div class="col">
+                            <div class="post-content">
+                              <div class="post-title">
+                                Proven Techniques Help You Herbal Breast
+                              </div>
+                              <div class="post-detail">13 Nov 2020</div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row list-post__post">
+                          <div class="col-auto">
+                            <div class="image-post"></div>
+                          </div>
+                          <div class="col">
+                            <div class="post-content">
+                              <div class="post-title">
+                                Laser Hair Removal The Basics
+                              </div>
+                              <div class="post-detail">16 Oct 2020</div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row list-post__post">
+                          <div class="col-auto">
+                            <div class="image-post"></div>
+                          </div>
+                          <div class="col">
+                            <div class="post-content">
+                              <div class="post-title">
+                                How To Save Money On Beauty Products
+                              </div>
+                              <div class="post-detail">03 May 2020</div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row list-post__post">
+                          <div class="col-auto">
+                            <div class="image-post"></div>
+                          </div>
+                          <div class="col">
+                            <div class="post-content">
+                              <div class="post-title">
+                                Herbal Skin Care Secrets Hidden At The...
+                              </div>
+                              <div class="post-detail">03 Jan 2020</div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row list-post__post">
+                          <div class="col-auto">
+                            <div class="image-post"></div>
+                          </div>
+                          <div class="col">
+                            <div class="post-content">
+                              <div class="post-title">
+                                Lasik Eye Surgery Are You Ready
+                              </div>
+                              <div class="post-detail">19 Jul 2020</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Email -->
+                <div class="row">
+                  <div class="col">
+                    <div class="sidebar__newsletter">
+                      <div class="sidebar__follow-text">
+                        <h4>
+                          Newsletter
+                        </h4>
+                      </div>
+                      <div class="newsletter-content">
+                        Subscribe to our newsletter and get our newest updates right on your inbox.
+                      </div>
+                      <div class="sidebar__input-search">
+                        <input style="border: none;" type="email" id="email" placeholder="Your email">                      
+                      </div>
+                      <div class="sidebar__checkbox">
+                        <input style="border-radius: 0%;" type="checkbox" id="checkbox" >       
+                        <div class="checkbox-text">
+                          I agree to the terms & conditions
+                        </div>               
+                      </div>
+                      <div class="button-sub">
+                        SUBCRIBE
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-8 col-sm-12">
+              <div class="main-content">
+
+                <div class="main__bigpost">
+                  <div class="bigpost-image">
+                  </div>
+                  <div class="bigpost-content">
+                    <div class="row">
+                      <div class="col-auto">
+                        <div class="date-post">
+                          <div style="font-size: 16px; font-weight: 600; width: 50px; display: flex;
+                                     justify-content: center; line-height: 30px; ">05</div>
+                          <div style="display: flex; justify-content: center; font-size: 13px; line-height: 13px;">Feb</div>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="title-post">
+                          <div class="post-author">
+                            <span style="color: rgb(167, 163, 163);">by</span>
+                            <span style="color: black;">Lindsay Weinberg</span> 
+                            <span>/</span>
+                            <span style="color: #f26460;">Beauty tips</span>
+                            
+                          </div>
+                          <h3>
+                            Breast Augmentation Breast Enlargement<br>Medical Tourism In The Philippine
+                          </h3>
+                          <div class="post-detail1">
+                            Dolor sit amet, consectetur adipiscing elit, eiusmod tempor incididunt<br>ut labore et dolore magna aliqua lacus facilisis...
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- normal post -->
+                <div class="normal-post">
+                  <div class="row">
+                    <div class="col">
+                      <div class="normal-post__list">
+                        <div class="normal-post__img">
+                        
+                        </div>
+
+                        <div class="normal-post__img-before">
+                          <div style="font-weight: 500;" class="post-author">
+                            <span style="color: rgb(167, 163, 163);margin-left: 20px;">by</span>
+                            <span style="color: black;">Lindsay Weinberg</span> 
+                            <span style="margin-left: 5px">/</span>
+                            <span style="color: rgb(167, 163, 163);margin-left: 5px;">Guides</span>                            
+                          </div>
+                        </div>
+
+                        <div class="normal-post__img-after">
+                          <div style="font-size: 16px; font-weight: 600; width: 50px; display: flex;
+                                      justify-content: center; line-height: 30px; ">05</div>
+                          <div style="display: flex; justify-content: center; font-weight: 400;
+                                       font-size: 13px; line-height: 13px;">Feb</div>
+                        </div>
+
+                        <div class="normal-post__content">
+                          <h3>
+                            The 6 Step Non Surgical Facial Rejuvenation Program
+                          </h3>
+                          <div class="normal-post__detail">
+                            Lorem ipsum dolor sit amet, consectetur adipi-scing elit, sed do eius tempor...
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col">
+                      <div class="normal-post__list normal-post__list2">
+                        <div class="normal-post__img">
+                        
+                        </div>
+
+                        <div class="normal-post__img-before">
+                          <div style="font-weight: 500;" class="post-author">
+                            <span style="color: rgb(167, 163, 163);margin-left: 35px;">by</span>
+                            <span style="color: black;">Lindsay Weinberg</span> 
+                            <span style="margin-left: 5px">/</span>
+                            <span style="color: rgb(167, 163, 163);margin-left: 5px;">Guides</span>                            
+                          </div>
+                        </div>
+
+                        <div class="normal-post__img-after">
+                          <div style="font-size: 16px; font-weight: 600; width: 50px; display: flex;
+                                      justify-content: center; line-height: 30px; ">05</div>
+                          <div style="display: flex; justify-content: center; font-weight: 400;
+                                       font-size: 13px; line-height: 13px;">Feb</div>
+                        </div>
+
+                        <div class="normal-post__content">
+                          <h3>
+                            The 6 Step Non Surgical Facial Rejuvenation Program
+                          </h3>
+                          <div class="normal-post__detail">
+                            Lorem ipsum dolor sit amet, consectetur adipi-scing elit, sed do eius tempor...
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div style="margin-top: 50px;" class="row">
+                    <div class="col">
+                      <div  class="normal-post__list ">
+                        <div class="normal-post__img">
+                        
+                        </div>
+
+                        <div class="normal-post__img-before">
+                          <div style="font-weight: 500;" class="post-author">
+                            <span style="color: rgb(167, 163, 163);margin-left: 20px;">by</span>
+                            <span style="color: black;">Lindsay Weinberg</span> 
+                            <span style="margin-left: 5px">/</span>
+                            <span style="color: rgb(167, 163, 163);margin-left: 5px;">Guides</span>                            
+                          </div>
+                        </div>
+
+                        <div class="normal-post__img-after">
+                          <div style="font-size: 16px; font-weight: 600; width: 50px; display: flex;
+                                      justify-content: center; line-height: 30px; ">05</div>
+                          <div style="display: flex; justify-content: center; font-weight: 400;
+                                       font-size: 13px; line-height: 13px;">Feb</div>
+                        </div>
+
+                        <div class="normal-post__content">
+                          <h3>
+                            The 6 Step Non Surgical Facial Rejuvenation Program
+                          </h3>
+                          <div class="normal-post__detail">
+                            Lorem ipsum dolor sit amet, consectetur adipi-scing elit, sed do eius tempor...
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div  class="normal-post__list normal-post__list2">
+                        <div class="normal-post__img">
+                        
+                        </div>
+
+                        <div class="normal-post__img-before">
+                          <div style="font-weight: 500;" class="post-author">
+                            <span style="color: rgb(167, 163, 163);margin-left: 35px;">by</span>
+                            <span style="color: black;">Lindsay Weinberg</span> 
+                            <span style="margin-left: 5px">/</span>
+                            <span style="color: rgb(167, 163, 163);margin-left: 5px;">Guides</span>                            
+                          </div>
+                        </div>
+
+                        <div class="normal-post__img-after">
+                          <div style="font-size: 16px; font-weight: 600; width: 50px; display: flex;
+                                      justify-content: center; line-height: 30px; ">05</div>
+                          <div style="display: flex; justify-content: center; font-weight: 400;
+                                       font-size: 13px; line-height: 13px;">Feb</div>
+                        </div>
+
+                        <div class="normal-post__content">
+                          <h3>
+                            The 6 Step Non Surgical Facial Rejuvenation Program
+                          </h3>
+                          <div class="normal-post__detail">
+                            Lorem ipsum dolor sit amet, consectetur adipi-scing elit, sed do eius tempor...
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div style="margin-top: 50px;" class="row">
+                    <div class="col">
+                      <div class="normal-post__list">
+                        <div class="normal-post__img">
+                        
+                        </div>
+
+                        <div class="normal-post__img-before">
+                          <div style="font-weight: 500;" class="post-author">
+                            <span style="color: rgb(167, 163, 163);margin-left: 20px;">by</span>
+                            <span style="color: black;">Lindsay Weinberg</span> 
+                            <span style="margin-left: 5px">/</span>
+                            <span style="color: rgb(167, 163, 163);margin-left: 5px;">Guides</span>                            
+                          </div>
+                        </div>
+
+                        <div class="normal-post__img-after">
+                          <div style="font-size: 16px; font-weight: 600; width: 50px; display: flex;
+                                      justify-content: center; line-height: 30px; ">05</div>
+                          <div style="display: flex; justify-content: center; font-weight: 400;
+                                       font-size: 13px; line-height: 13px;">Feb</div>
+                        </div>
+
+                        <div class="normal-post__content">
+                          <h3>
+                            The 6 Step Non Surgical Facial Rejuvenation Program
+                          </h3>
+                          <div class="normal-post__detail">
+                            Lorem ipsum dolor sit amet, consectetur adipi-scing elit, sed do eius tempor...
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div  class="normal-post__list normal-post__list2">
+                        <div class="normal-post__img">
+                        
+                        </div>
+
+                        <div class="normal-post__img-before">
+                          <div style="font-weight: 500;" class="post-author">
+                            <span style="color: rgb(167, 163, 163);margin-left: 35px;">by</span>
+                            <span style="color: black;">Lindsay Weinberg</span> 
+                            <span style="margin-left: 5px">/</span>
+                            <span style="color: rgb(167, 163, 163);margin-left: 5px;">Guides</span>                            
+                          </div>
+                        </div>
+
+                        <div class="normal-post__img-after">
+                          <div style="font-size: 16px; font-weight: 600; width: 50px; display: flex;
+                                      justify-content: center; line-height: 30px; ">05</div>
+                          <div style="display: flex; justify-content: center; font-weight: 400;
+                                       font-size: 13px; line-height: 13px;">Feb</div>
+                        </div>
+
+                        <div class="normal-post__content">
+                          <h3>
+                            The 6 Step Non Surgical Facial Rejuvenation Program
+                          </h3>
+                          <div class="normal-post__detail">
+                            Lorem ipsum dolor sit amet, consectetur adipi-scing elit, sed do eius tempor...
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="list__normal-post">
+                    <div class="list">1</div>
+                    <div class="list">2</div>
+                    <div class="list">3</div>
+                    <div class="list">></div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bot-image">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div class="image-bottom">
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <section class="top-footer">        
+      </section>
+      <section class="second-footer">
+        <div class="container">
+          <div class="need-border">
+            <div class="row">
+              <div class="col-md-2 col-sm-12 col-xs-12 d-flex align-items-center nopadd"  >
+                <div class="footer-logo top-bar__logo">
+                  <h1>Eliah</h1>
+                </div>
+              </div>
+              <div class="col-md-7 col-sm-12 col-xs-12 d-flex align-items-center justify-content-center ">
+                <div class="footer__email">
+                  <div class="footer-email-text">
+                    Subscribe Newletter
+                  </div>
+                  <div class="footer__input-email">
+                    <input style="border: none; font-size: 13px;" type="email" id="email1" placeholder="Your email">    
+                    <div class="air-plane">
+                      <img src="css/icon/paper_airplane_icon.png" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-12 col-xs-12 logof">
+                <div class="footer__follow-logo">
+                  <div class="flogo-follow"><img src="css/icon/facebook-footer.png" alt=""></div>
+                  <div class="flogo-follow "><img src="css/icon/twitter-footer.png" alt=""></div>
+                  <div class="flogo-follow"><img src="css/icon/youtube-footer.png" alt=""></div>
+                  <div class="flogo-follow"><img src="css/icon/istagram_footer.png" alt=""></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="third-footer">
+        <div class="container">
+          <div class="row justify-content-between">
+            <div class="col-md-4 col-sm-12 col-xs-12 nopadd" >
+              <div class="third-footer-col third-footer-col11">
+                <div class="third-footer-col-title">
+                  Contect info
+                </div>
+                <div class="third-footer-content">
+                  <div class="third-footer-col-row">
+                    <span class="third-footer1">Address: </span>
+                    <span class="third-footer-info">2168 S Archer Ave, Chicago, IL 60616, US</span>
+                  </div>
+                  <div class="third-footer-col-row">
+                    <span class="third-footer1">Phone: </span>
+                    <span class="third-footer-info">+1 312-808-1999</span>
+                  </div>
+                  <div class="third-footer-col-row">
+                    <span class="third-footer1">Email: </span>
+                    <span class="third-footer-info">Beatycosmetics@gmail.com</span>
+                  </div>
+                  <div class="third-footer-col-row">
+                    <span class="third-footer1">Opentime: </span>
+                    <span class="third-footer-info">8.00am - 11.00.pm</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12">
+              <div class="row">
+                <div class="col-6" style="padding-left: 0px;">
+                  <div class="third-footer-col">
+                    <div class="third-footer-col-title">
+                      Account
+                    </div>
+                    <div class="third-footer-content">
+                      <ul>
+                        <li>
+                          <div class="third-footer2">My account</div>
+                        </li>
+                        <li>
+                          <div class="third-footer2">Wishlist</div>
+                        </li>
+                        <li>
+                          <div class="third-footer2">Cart</div>
+                        </li>
+                        <li>
+                          <div class="third-footer2">Shop</div>
+                        </li>
+                        <li>
+                          <div class="third-footer2">Checkout</div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6" style="padding-left: 0px;">
+                  <div class="third-footer-col">
+                    <div class="third-footer-col-title">
+                      Information
+                    </div>
+                    <div class="third-footer-content">
+                      <ul>
+                        <li>
+                          <div class="third-footer2">About us</div>
+                        </li>
+                        <li>
+                          <div class="third-footer2">Careers</div>
+                        </li>
+                        <li>
+                          <div class="third-footer2">Delivery Information</div>
+                        </li>
+                        <li>
+                          <div class="third-footer2">Privacy Policy</div>
+                        </li>
+                        <li>
+                          <div class="third-footer2">Terms & Condition</div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12 nopadd1">
+              <div class="third-footer-col third-footer-col33">
+                <div class="third-footer-col-title">
+                  Payment methods
+                </div>
+                <div class="third-footer-content">
+                  <div class="payment-info">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit gravida facilisis. 
+                  </div>
+                  <div class="payment-choice">
+                    <img src="css/icon/paypal_icon.png" alt="">
+                    <img src="css/icon/visa_icon.png" alt="">
+                    <img src="css/icon/mastercard_icon.png" alt="">
+                    <img src="css/icon/cirrus_icon.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="last-footer">
+        <div class="container">
+          <div class="row justify-content-between align-content-center">
+            <div class="col-auto nopadd">
+              <span>© Copyright 2020 Beauty</span>
+            </div>
+            <div class="col-auto">
+              <div class="more">
+                <span>Privacy Policy</span>
+                <span>|</span>
+                <span>Terms & Conditions</span>
+                <span>|</span>
+                <span>Site Map</span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>
